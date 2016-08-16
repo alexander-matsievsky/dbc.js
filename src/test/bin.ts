@@ -69,10 +69,3 @@ const barrelDbc = new BarrellDbc();
 
 void barrel;
 void barrelDbc;
-
-@post(x => [
-    x > 0
-])
-function foobar(x) {
-    return x + 1;
-}
